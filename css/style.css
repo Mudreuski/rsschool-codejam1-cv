@@ -14,7 +14,7 @@ header img {
     border-radius: 10%;
 }
 h1 {
-    color: aqua;
+    color: rgb(184, 245, 245);
     padding: 30px 0px 50px;
     text-align: center;
     font-family: 'Charmonman', cursive;
@@ -36,14 +36,21 @@ article div img {
 article div span {
     vertical-align: 40%;
     margin-left: 10px;
+    text-decoration: none;
 }
 article div+div {
     margin-top: 5px;
 }
 article div span a{
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
-article div:last-child {
-    padding-bottom: 15px;
+article:nth-child(2){
+    margin: -22px auto 0;  
 }
+ul li+li {
+    margin-top: 10px;
+}
+article:nth-child(2) h2{
+    padding-top: 30px;
+} 
