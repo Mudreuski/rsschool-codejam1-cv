@@ -41,22 +41,22 @@ article div span {
 article div+div {
     margin-top: 5px;
 }
-article div span a{
+article div span a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-article:nth-child(2){
+article:nth-child(2) {
     margin: -22px auto 0;  
 }
 ul li+li {
     margin-top: 15px;
 }
-article:nth-child(2) h2{
+article:nth-child(2) h2 {
     padding-top: 30px;
 } 
 ul {
-    margin-left: 40px;
+    margin-left: 20px;
 }
-article:nth-child(5){
+article:nth-child(5) {
     margin: 10px auto 0;  
 }
