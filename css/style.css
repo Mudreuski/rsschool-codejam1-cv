@@ -1,4 +1,4 @@
-header {
+header, footer {
     width: 1080px;
     margin: 0 auto;
     background-color: rgb(148, 151, 151);
@@ -24,7 +24,7 @@ section {
     margin: -22px auto 0;
     background-color: rgb(184, 245, 245);
 }
-article h2 {
+h2 {
     font-family: 'Charmonman', cursive;
     padding: 20px 0 0 20px;   
 }
@@ -59,4 +59,16 @@ ul {
 }
 article:nth-child(5) {
     margin: 10px auto 0;  
+}
+article:last-child {
+    padding-bottom: 20px;
+}
+footer {
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+footer h2 {
+    color: rgb(184, 245, 245);
+    text-align: center;
+    padding: 15px 0;  
 }
